@@ -4,7 +4,9 @@ A defensive "pressing aggression" score for football (soccer) teams, built from 
 
 ## Motivation
 
-Team quality and team *style* are easy to conflate. Leicester City won the 2015/16 Premier League with a deep block and counter-attacks, not high pressing — a metric that can't tell that apart from "how good is this team" isn't measuring style at all. This project builds a composite aggression score from event data and validates it against known pressing identities (Barcelona, Bayern Munich, Dortmund, Atlético, Napoli) and known non-pressing but strong teams (Leicester, PSG) before trusting it for anything else.
+This project builds an aggression score from event data and validates it against known pressing identities (Barcelona, Atlético, Napoli) and known non-pressing but strong teams (Leicester, PSG) before trusting it for anything else.
+
+"Aggression" is used here in the EGT/Hawk-Dove sense — willingness to contest a resource — not the colloquial sense of physicality or fouls. Concretely, the score measures how often a team ventures into the opponent's own territory to contest the ball, not how hard it tackles or how many fouls it commits.
 
 The longer-term motivation is framed in EGT terms. The classic Hawk-Dove-Bourgeois-Antibourgeois ownership game gives four strategies, where "ownership" maps naturally onto home/away status in football (home = territory owner):
 
@@ -17,17 +19,18 @@ If a team's aggression score at home consistently differs from its score away, t
 
 ## Data
 
-StatsBomb open data, **"2015/16 Big 5 Leagues"** release: full round-robin coverage of the Premier League, La Liga, Bundesliga, Serie A, and Ligue 1, 2015/16 season only.
+StatsBomb open data, **"2015/16 Big 5 Leagues"** release, 2015/16 season only — restricted to the Premier League, La Liga, Serie A, and Ligue 1. Bundesliga is excluded: the open-data release only covers one team's (Bayer Leverkusen) matches for that competition, not the full round-robin, so it can't support team-vs-team comparisons. Ligue 1 is also missing 3 of its 380 fixtures in the open data; the other three leagues are complete (380/380, 20 teams each).
 
-## Aggression score — components
+## Aggression score — definition
 
-Computed per team, per match, from event data:
+The raw aggression score is a single metric, **forward press rate**: the number of defensive-action *attempts* — pressures, tackles, interceptions, and fouls committed, regardless of outcome — a team makes while the ball is in the opponent's own half, per opponent possession.
 
-- PPDA (opponent passes completed before a defensive action, defensive two-thirds)
-- Pressures per opponent possession
-- Counterpressing rate (regains within ~5 seconds of losing the ball)
-- Defensive line proxy (average distance from own goal of tackles/interceptions/pressures)
-- Fouls committed in the middle/attacking third
+Computed per team, per match, from event data. Two design choices matter:
+
+- **Attempts, not successes.** Whether a tackle succeeds reflects player skill; whether a team attempts it reflects strategy. Counting only successful regains would conflate style with quality — exactly the confound this project exists to avoid (see the Leicester City validation case below).
+- **Zone-restricted to the opponent's half.** A team that only engages once the ball reaches its own third scores near zero here, no matter how efficient it is once the ball arrives deep. This is what ties the score to territory in the EGT sense, rather than to generic defensive workrate.
+
+This replaced an earlier design that combined five separate components (PPDA, pressures per possession, counterpressing rate, a defensive-line proxy, and fouls in the middle/attacking third) via z-scoring and averaging. That approach was dropped: combining heterogeneous, correlated metrics into a z-scored composite gave a number with no direct interpretation, and some of those components (e.g. pressures per possession) weren't zone-restricted at all, so they didn't actually capture territorial behavior. Forward press rate is a single, directly interpretable rate that subsumes what those components were reaching for.
 
 ## Confounds to control for
 

@@ -1,0 +1,8 @@
+.venv-football-aggression-index/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+statsbomb_docs/
+.DS_Store
+futureIdeas.md
+scratch_previews/

@@ -1,0 +1,755 @@
+match_id,team,opponent,venue,raw_aggression_index
+3901259,Troyes,Olympique de Marseille,Home,0.4392523364485981
+3901259,Olympique de Marseille,Troyes,Away,1.4948453608247423
+3900533,AS Monaco,Stade Malherbe Caen,Home,0.7857142857142857
+3900533,Stade Malherbe Caen,AS Monaco,Away,0.4406779661016949
+3900528,Bordeaux,Stade Malherbe Caen,Home,1.1744186046511629
+3900528,Stade Malherbe Caen,Bordeaux,Away,0.6605504587155964
+3900629,Olympique de Marseille,Paris Saint-Germain,Home,1.3936170212765957
+3900629,Paris Saint-Germain,Olympique de Marseille,Away,0.594059405940594
+3829509,Olympique de Marseille,Lorient,Home,0.7378640776699029
+3829509,Lorient,Olympique de Marseille,Away,0.8737864077669902
+3901251,Olympique de Marseille,Stade de Reims,Home,0.7227722772277227
+3901251,Stade de Reims,Olympique de Marseille,Away,1.0970873786407767
+3829499,Stade Malherbe Caen,Saint-Étienne,Home,0.5454545454545454
+3829499,Saint-Étienne,Stade Malherbe Caen,Away,0.9565217391304348
+3900507,Olympique de Marseille,OGC Nice,Home,1.36
+3900507,OGC Nice,Olympique de Marseille,Away,0.4298245614035088
+3900527,Olympique de Marseille,AS Monaco,Home,0.9
+3900527,AS Monaco,Olympique de Marseille,Away,0.9215686274509803
+3901162,Stade Malherbe Caen,AS Monaco,Home,0.9009009009009009
+3901162,AS Monaco,Stade Malherbe Caen,Away,0.9423076923076923
+3900608,Stade Malherbe Caen,OGC Nice,Home,0.6601941747572816
+3900608,OGC Nice,Stade Malherbe Caen,Away,0.8641975308641975
+3900589,Stade Malherbe Caen,Olympique de Marseille,Home,1.0703125
+3900589,Olympique de Marseille,Stade Malherbe Caen,Away,0.9215686274509803
+3901169,Olympique de Marseille,Toulouse,Home,1.1919191919191918
+3901169,Toulouse,Olympique de Marseille,Away,0.6481481481481481
+3901241,Stade Malherbe Caen,Bastia,Home,0.6727272727272727
+3901241,Bastia,Stade Malherbe Caen,Away,0.9210526315789473
+3900577,Olympique de Marseille,Guingamp,Home,0.8333333333333334
+3900577,Guingamp,Olympique de Marseille,Away,0.5882352941176471
+3901152,Stade Malherbe Caen,Rennes,Home,1.26
+3901152,Rennes,Stade Malherbe Caen,Away,0.94
+3900559,Olympique de Marseille,Gazélec Ajaccio,Home,1.1097560975609757
+3900559,Gazélec Ajaccio,Olympique de Marseille,Away,0.5909090909090909
+3900562,Stade Malherbe Caen,Paris Saint-Germain,Home,1.3522727272727273
+3900562,Paris Saint-Germain,Stade Malherbe Caen,Away,0.8279569892473119
+3829472,Olympique de Marseille,Lyon,Home,0.8247422680412371
+3829472,Lyon,Olympique de Marseille,Away,1.1521739130434783
+3829444,Stade Malherbe Caen,Lyon,Home,0.7368421052631579
+3829444,Lyon,Stade Malherbe Caen,Away,0.7064220183486238
+3829414,Olympique de Marseille,Stade Malherbe Caen,Home,0.8064516129032258
+3829414,Stade Malherbe Caen,Olympique de Marseille,Away,0.7589285714285714
+3901190,Stade Malherbe Caen,Troyes,Home,0.8596491228070176
+3901190,Troyes,Stade Malherbe Caen,Away,0.5370370370370371
+3829441,Olympique de Marseille,Troyes,Home,0.9012345679012346
+3829441,Troyes,Olympique de Marseille,Away,0.75
+3829461,Olympique de Marseille,Bastia,Home,1.0789473684210527
+3829461,Bastia,Olympique de Marseille,Away,0.9518072289156626
+3901150,Olympique de Marseille,Saint-Étienne,Home,1.180952380952381
+3901150,Saint-Étienne,Olympique de Marseille,Away,1.1132075471698113
+3901199,Rennes,Stade de Reims,Home,0.7878787878787878
+3901199,Stade de Reims,Rennes,Away,1.1979166666666667
+3901178,Lorient,Olympique de Marseille,Home,
+3901178,Olympique de Marseille,Lorient,Away,0.0
+3901260,Lorient,Gazélec Ajaccio,Home,0.5980392156862745
+3901260,Gazélec Ajaccio,Lorient,Away,1.37
+3829470,Saint-Étienne,Nantes,Home,0.8928571428571429
+3829470,Nantes,Saint-Étienne,Away,1.0808080808080809
+3901263,Rennes,Bastia,Home,0.8641975308641975
+3901263,Bastia,Rennes,Away,0.59
+3900594,Nantes,Bordeaux,Home,0.7433628318584071
+3900594,Bordeaux,Nantes,Away,1.0303030303030303
+3900587,Saint-Étienne,Lyon,Home,1.0388349514563107
+3900587,Lyon,Saint-Étienne,Away,0.8705882352941177
+3900541,Bastia,AS Monaco,Home,0.9489795918367347
+3900541,AS Monaco,Bastia,Away,0.9043478260869565
+3900596,Guingamp,Bastia,Home,0.9186046511627907
+3900596,Bastia,Guingamp,Away,0.5405405405405406
+3900591,Paris Saint-Germain,Angers,Home,1.1666666666666667
+3900591,Angers,Paris Saint-Germain,Away,1.0568181818181819
+3901188,Saint-Étienne,Montpellier,Home,0.9270833333333334
+3901188,Montpellier,Saint-Étienne,Away,0.9166666666666666
+3901184,Olympique de Marseille,Rennes,Home,1.3095238095238095
+3901184,Rennes,Olympique de Marseille,Away,0.4247787610619469
+3901182,Nantes,Angers,Home,1.0186915887850467
+3901182,Angers,Nantes,Away,0.9238095238095239
+3901170,Rennes,Nantes,Home,0.989247311827957
+3901170,Nantes,Rennes,Away,1.0795454545454546
+3901166,Paris Saint-Germain,Montpellier,Home,1.0106382978723405
+3901166,Montpellier,Paris Saint-Germain,Away,1.5913978494623655
+3901168,Lille,Stade de Reims,Home,1.2150537634408602
+3901168,Stade de Reims,Lille,Away,0.8691588785046729
+3900601,Gazélec Ajaccio,Montpellier,Home,0.5104166666666666
+3900601,Montpellier,Gazélec Ajaccio,Away,0.5533980582524272
+3901262,Stade Malherbe Caen,Bordeaux,Home,0.6886792452830188
+3901262,Bordeaux,Stade Malherbe Caen,Away,1.173913043478261
+3901261,Paris Saint-Germain,Nantes,Home,0.6206896551724138
+3901261,Nantes,Paris Saint-Germain,Away,0.8804347826086957
+3901258,Guingamp,OGC Nice,Home,1.0869565217391304
+3901258,OGC Nice,Guingamp,Away,0.9714285714285714
+3901257,Saint-Étienne,Lille,Home,1.1157894736842104
+3901257,Lille,Saint-Étienne,Away,0.6607142857142857
+3901256,AS Monaco,Montpellier,Home,0.8547008547008547
+3901256,Montpellier,AS Monaco,Away,1.1262135922330097
+3901255,Angers,Toulouse,Home,0.6272727272727273
+3901255,Toulouse,Angers,Away,0.7075471698113207
+3901254,Stade de Reims,Lyon,Home,0.78
+3901254,Lyon,Stade de Reims,Away,1.2151898734177216
+3901253,Bordeaux,Paris Saint-Germain,Home,0.9560439560439561
+3901253,Paris Saint-Germain,Bordeaux,Away,1.0277777777777777
+3901252,Lyon,AS Monaco,Home,0.9418604651162791
+3901252,AS Monaco,Lyon,Away,0.9789473684210527
+3901250,OGC Nice,Saint-Étienne,Home,1.240506329113924
+3901250,Saint-Étienne,OGC Nice,Away,0.7142857142857143
+3901249,Montpellier,Rennes,Home,0.9666666666666667
+3901249,Rennes,Montpellier,Away,0.7021276595744681
+3901248,Lille,Guingamp,Home,0.8817204301075269
+3901248,Guingamp,Lille,Away,0.44954128440366975
+3901247,Gazélec Ajaccio,Paris Saint-Germain,Home,1.1219512195121952
+3901247,Paris Saint-Germain,Gazélec Ajaccio,Away,0.813953488372093
+3901246,Nantes,Stade Malherbe Caen,Home,
+3901246,Stade Malherbe Caen,Nantes,Away,0.0
+3901245,Bordeaux,Lorient,Home,0.8105263157894737
+3901245,Lorient,Bordeaux,Away,1.0674157303370786
+3901244,Toulouse,Troyes,Home,1.2452830188679245
+3901244,Troyes,Toulouse,Away,0.875
+3901243,Bastia,Angers,Home,0.8173076923076923
+3901243,Angers,Bastia,Away,1.2342342342342343
+3901242,Angers,Olympique de Marseille,Home,
+3901242,Olympique de Marseille,Angers,Away,0.0
+3901240,Lorient,Lille,Home,0.875
+3901240,Lille,Lorient,Away,0.8333333333333334
+3901238,AS Monaco,Guingamp,Home,1.2156862745098038
+3901238,Guingamp,AS Monaco,Away,0.8173076923076923
+3901237,Saint-Étienne,Toulouse,Home,0.62
+3901237,Toulouse,Saint-Étienne,Away,0.48598130841121495
+3901236,Nantes,OGC Nice,Home,1.28125
+3901236,OGC Nice,Nantes,Away,0.7083333333333334
+3901235,Lyon,Gazélec Ajaccio,Home,1.2530120481927711
+3901235,Gazélec Ajaccio,Lyon,Away,1.0
+3901234,Stade de Reims,Montpellier,Home,0.6372549019607843
+3901234,Montpellier,Stade de Reims,Away,0.6336633663366337
+3901233,Paris Saint-Germain,Rennes,Home,0.7777777777777778
+3901233,Rennes,Paris Saint-Germain,Away,0.6555555555555556
+3901232,Lille,Angers,Home,1.2840909090909092
+3901232,Angers,Lille,Away,0.7142857142857143
+3901231,Rennes,AS Monaco,Home,1.148936170212766
+3901231,AS Monaco,Rennes,Away,0.9304347826086956
+3901230,Gazélec Ajaccio,Bastia,Home,0.8679245283018868
+3901230,Bastia,Gazélec Ajaccio,Away,0.7572815533980582
+3901229,Guingamp,Stade Malherbe Caen,Home,
+3901229,Stade Malherbe Caen,Guingamp,Away,0.0
+3901228,Saint-Étienne,Lorient,Home,1.06
+3901228,Lorient,Saint-Étienne,Away,0.6804123711340206
+3901227,Olympique de Marseille,Nantes,Home,0.8173076923076923
+3901227,Nantes,Olympique de Marseille,Away,1.0087719298245614
+3901226,Montpellier,Troyes,Home,0.6451612903225806
+3901226,Troyes,Montpellier,Away,0.7684210526315789
+3901225,Toulouse,Lyon,Home,1.0505050505050506
+3901225,Lyon,Toulouse,Away,0.5280898876404494
+3901224,OGC Nice,Stade de Reims,Home,0.5595238095238095
+3901224,Stade de Reims,OGC Nice,Away,1.19
+3901223,AS Monaco,Olympique de Marseille,Home,
+3901223,Olympique de Marseille,AS Monaco,Away,0.0
+3901222,Nantes,Montpellier,Home,0.7087378640776699
+3901222,Montpellier,Nantes,Away,0.84375
+3901221,Rennes,Guingamp,Home,0.776595744680851
+3901221,Guingamp,Rennes,Away,0.5617977528089888
+3901220,Bastia,Saint-Étienne,Home,1.0784313725490196
+3901220,Saint-Étienne,Bastia,Away,0.9823008849557522
+3901219,Lorient,Toulouse,Home,0.6486486486486487
+3901219,Toulouse,Lorient,Away,1.5135135135135136
+3901218,Bordeaux,Angers,Home,1.0987654320987654
+3901218,Angers,Bordeaux,Away,0.4423076923076923
+3901217,Troyes,Stade de Reims,Home,0.6947368421052632
+3901217,Stade de Reims,Troyes,Away,1.0404040404040404
+3901216,Paris Saint-Germain,Stade Malherbe Caen,Home,
+3901216,Stade Malherbe Caen,Paris Saint-Germain,Away,0.0
+3901215,Gazélec Ajaccio,Lille,Home,1.24
+3901215,Lille,Gazélec Ajaccio,Away,0.7209302325581395
+3901214,Lyon,OGC Nice,Home,1.7586206896551724
+3901214,OGC Nice,Lyon,Away,0.49038461538461536
+3901213,OGC Nice,Rennes,Home,0.782608695652174
+3901213,Rennes,OGC Nice,Away,0.9431818181818182
+3901212,Lille,AS Monaco,Home,0.7777777777777778
+3901212,AS Monaco,Lille,Away,0.8585858585858586
+3901211,Olympique de Marseille,Bordeaux,Home,0.9886363636363636
+3901211,Bordeaux,Olympique de Marseille,Away,0.8584905660377359
+3901210,Saint-Étienne,Troyes,Home,1.2058823529411764
+3901210,Troyes,Saint-Étienne,Away,0.8165137614678899
+3901209,Angers,Gazélec Ajaccio,Home,1.0816326530612246
+3901209,Gazélec Ajaccio,Angers,Away,0.7327586206896551
+3901208,Guingamp,Paris Saint-Germain,Home,1.2989690721649485
+3901208,Paris Saint-Germain,Guingamp,Away,0.956989247311828
+3901207,Stade de Reims,Nantes,Home,0.900990099009901
+3901207,Nantes,Stade de Reims,Away,0.7572815533980582
+3901206,Toulouse,Bastia,Home,1.3473684210526315
+3901206,Bastia,Toulouse,Away,0.41346153846153844
+3901205,Stade Malherbe Caen,Lorient,Home,1.4433962264150944
+3901205,Lorient,Stade Malherbe Caen,Away,0.6607142857142857
+3901204,Montpellier,Lyon,Home,1.2857142857142858
+3901204,Lyon,Montpellier,Away,0.9074074074074074
+3901203,Nantes,Lille,Home,1.1914893617021276
+3901203,Lille,Nantes,Away,0.5925925925925926
+3901202,Lorient,Lyon,Home,0.9615384615384616
+3901202,Lyon,Lorient,Away,0.7913043478260869
+3901201,Bastia,Olympique de Marseille,Home,
+3901201,Olympique de Marseille,Bastia,Away,0.0
+3901200,Toulouse,Stade Malherbe Caen,Home,
+3901200,Stade Malherbe Caen,Toulouse,Away,0.0
+3901198,Troyes,Angers,Home,0.9478260869565217
+3901198,Angers,Troyes,Away,0.9391304347826087
+3901197,Guingamp,Montpellier,Home,0.6063829787234043
+3901197,Montpellier,Guingamp,Away,0.7614678899082569
+3901196,Paris Saint-Germain,OGC Nice,Home,1.2093023255813953
+3901196,OGC Nice,Paris Saint-Germain,Away,0.989010989010989
+3901195,Gazélec Ajaccio,Saint-Étienne,Home,1.0566037735849056
+3901195,Saint-Étienne,Gazélec Ajaccio,Away,0.7079646017699115
+3901194,AS Monaco,Bordeaux,Home,1.0560747663551402
+3901194,Bordeaux,AS Monaco,Away,0.8976377952755905
+3901193,Paris Saint-Germain,AS Monaco,Home,1.0126582278481013
+3901193,AS Monaco,Paris Saint-Germain,Away,1.0315789473684212
+3901192,Bordeaux,Bastia,Home,0.5555555555555556
+3901192,Bastia,Bordeaux,Away,0.8469387755102041
+3901191,OGC Nice,Gazélec Ajaccio,Home,0.6666666666666666
+3901191,Gazélec Ajaccio,OGC Nice,Away,1.2903225806451613
+3901189,Lille,Toulouse,Home,0.6481481481481481
+3901189,Toulouse,Lille,Away,1.1851851851851851
+3901187,Angers,Lorient,Home,0.9270833333333334
+3901187,Lorient,Angers,Away,0.5673076923076923
+3901186,Lyon,Nantes,Home,0.8723404255319149
+3901186,Nantes,Lyon,Away,0.6756756756756757
+3901185,Stade de Reims,Guingamp,Home,1.4337349397590362
+3901185,Guingamp,Stade de Reims,Away,0.415929203539823
+3901183,Troyes,Paris Saint-Germain,Home,0.975
+3901183,Paris Saint-Germain,Troyes,Away,1.0256410256410255
+3901181,Rennes,Lyon,Home,0.8383838383838383
+3901181,Lyon,Rennes,Away,1.0113636363636365
+3901180,Guingamp,Saint-Étienne,Home,0.49019607843137253
+3901180,Saint-Étienne,Guingamp,Away,0.9702970297029703
+3901179,Gazélec Ajaccio,Stade Malherbe Caen,Home,
+3901179,Stade Malherbe Caen,Gazélec Ajaccio,Away,0.0
+3901177,Bastia,Lille,Home,0.8198198198198198
+3901177,Lille,Bastia,Away,1.0606060606060606
+3901176,Toulouse,Bordeaux,Home,0.8631578947368421
+3901176,Bordeaux,Toulouse,Away,0.7291666666666666
+3901175,Montpellier,OGC Nice,Home,1.9056603773584906
+3901175,OGC Nice,Montpellier,Away,0.6923076923076923
+3901174,AS Monaco,Stade de Reims,Home,1.1801801801801801
+3901174,Stade de Reims,AS Monaco,Away,0.75
+3901173,Gazélec Ajaccio,Olympique de Marseille,Home,
+3901173,Olympique de Marseille,Gazélec Ajaccio,Away,0.0
+3901172,Bastia,Nantes,Home,1.1237113402061856
+3901172,Nantes,Bastia,Away,1.22
+3901171,Lyon,Guingamp,Home,1.1818181818181819
+3901171,Guingamp,Lyon,Away,0.8297872340425532
+3901167,Bastia,Lorient,Home,1.1515151515151516
+3901167,Lorient,Bastia,Away,0.9494949494949495
+3901165,Bordeaux,Gazélec Ajaccio,Home,0.8631578947368421
+3901165,Gazélec Ajaccio,Bordeaux,Away,1.3398058252427185
+3901164,Angers,Saint-Étienne,Home,1.0377358490566038
+3901164,Saint-Étienne,Angers,Away,1.2872340425531914
+3901163,OGC Nice,Troyes,Home,0.7692307692307693
+3901163,Troyes,OGC Nice,Away,0.780952380952381
+3901161,Saint-Étienne,Stade Malherbe Caen,Home,0.926605504587156
+3901161,Stade Malherbe Caen,Saint-Étienne,Away,0.3684210526315789
+3901160,Nantes,AS Monaco,Home,1.1263157894736842
+3901160,AS Monaco,Nantes,Away,0.4766355140186916
+3901159,Lyon,Paris Saint-Germain,Home,1.326086956521739
+3901159,Paris Saint-Germain,Lyon,Away,0.3595505617977528
+3901158,Toulouse,Rennes,Home,0.9576271186440678
+3901158,Rennes,Toulouse,Away,0.9553571428571429
+3901157,Stade de Reims,Bordeaux,Home,0.7956989247311828
+3901157,Bordeaux,Stade de Reims,Away,1.0
+3901156,Guingamp,Angers,Home,0.7093023255813954
+3901156,Angers,Guingamp,Away,0.59375
+3901155,Montpellier,Lille,Home,0.9659090909090909
+3901155,Lille,Montpellier,Away,0.69
+3901154,Troyes,Lorient,Home,0.8469387755102041
+3901154,Lorient,Troyes,Away,0.7980769230769231
+3901153,OGC Nice,Bastia,Home,0.9213483146067416
+3901153,Bastia,OGC Nice,Away,0.8080808080808081
+3901151,Lille,Lyon,Home,0.9907407407407407
+3901151,Lyon,Lille,Away,1.0285714285714285
+3901149,AS Monaco,Troyes,Home,1.3571428571428572
+3901149,Troyes,AS Monaco,Away,0.7692307692307693
+3901148,Lorient,Guingamp,Home,0.8064516129032258
+3901148,Guingamp,Lorient,Away,0.48
+3901147,Toulouse,Gazélec Ajaccio,Home,0.7254901960784313
+3901147,Gazélec Ajaccio,Toulouse,Away,0.7837837837837838
+3901146,Paris Saint-Germain,Stade de Reims,Home,0.78125
+3901146,Stade de Reims,Paris Saint-Germain,Away,1.8736842105263158
+3901145,Angers,Montpellier,Home,1.0095238095238095
+3901145,Montpellier,Angers,Away,1.1979166666666667
+3901144,Bordeaux,OGC Nice,Home,1.1494252873563218
+3901144,OGC Nice,Bordeaux,Away,0.9489795918367347
+3900602,Lorient,Stade de Reims,Home,0.7425742574257426
+3900602,Stade de Reims,Lorient,Away,0.9029126213592233
+3829518,Lille,Olympique de Marseille,Home,
+3829518,Olympique de Marseille,Lille,Away,0.0
+3829479,Lorient,Stade Malherbe Caen,Home,
+3829479,Stade Malherbe Caen,Lorient,Away,0.0
+3829478,Gazélec Ajaccio,Rennes,Home,0.68
+3829478,Rennes,Gazélec Ajaccio,Away,0.6347826086956522
+3829519,Paris Saint-Germain,Saint-Étienne,Home,0.6703296703296703
+3829519,Saint-Étienne,Paris Saint-Germain,Away,1.6767676767676767
+3829416,OGC Nice,AS Monaco,Home,0.5408163265306123
+3829416,AS Monaco,OGC Nice,Away,1.3218390804597702
+3829459,OGC Nice,Guingamp,Home,1.2439024390243902
+3829459,Guingamp,OGC Nice,Away,0.8979591836734694
+3900636,Nantes,Lorient,Home,0.83
+3900636,Lorient,Nantes,Away,1.0224719101123596
+3900633,Gazélec Ajaccio,Troyes,Home,1.23
+3900633,Troyes,Gazélec Ajaccio,Away,0.5221238938053098
+3900628,Lille,Rennes,Home,1.0485436893203883
+3900628,Rennes,Lille,Away,0.7415730337078652
+3900627,Bordeaux,Saint-Étienne,Home,0.5625
+3900627,Saint-Étienne,Bordeaux,Away,0.5102040816326531
+3900625,AS Monaco,OGC Nice,Home,0.8775510204081632
+3900625,OGC Nice,AS Monaco,Away,0.8636363636363636
+3900624,Angers,Lyon,Home,1.1139240506329113
+3900624,Lyon,Angers,Away,1.2619047619047619
+3900616,Lyon,Bordeaux,Home,0.7717391304347826
+3900616,Bordeaux,Lyon,Away,0.7777777777777778
+3900617,Stade de Reims,Angers,Home,0.7816091954022989
+3900617,Angers,Stade de Reims,Away,0.5729166666666666
+3900609,Bordeaux,Rennes,Home,1.0978260869565217
+3900609,Rennes,Bordeaux,Away,0.7222222222222222
+3900604,Angers,AS Monaco,Home,0.8152173913043478
+3900604,AS Monaco,Angers,Away,1.053763440860215
+3900605,Bastia,Lyon,Home,0.9207920792079208
+3900605,Lyon,Bastia,Away,1.2083333333333333
+3900603,Toulouse,Guingamp,Home,1.0918367346938775
+3900603,Guingamp,Toulouse,Away,0.5454545454545454
+3900606,Troyes,Nantes,Home,0.9574468085106383
+3900606,Nantes,Troyes,Away,0.9797979797979798
+3900600,Olympique de Marseille,Lille,Home,0.9550561797752809
+3900600,Lille,Olympique de Marseille,Away,1.0272727272727273
+3900598,AS Monaco,Toulouse,Home,0.9629629629629629
+3900598,Toulouse,AS Monaco,Away,0.7619047619047619
+3900597,Lyon,Olympique de Marseille,Home,1.6373626373626373
+3900597,Olympique de Marseille,Lyon,Away,0.8035714285714286
+3900599,Stade de Reims,Saint-Étienne,Home,0.8229166666666666
+3900599,Saint-Étienne,Stade de Reims,Away,1.0
+3900592,Montpellier,Stade Malherbe Caen,Home,0.9651162790697675
+3900592,Stade Malherbe Caen,Montpellier,Away,0.7280701754385965
+3900595,OGC Nice,Lorient,Home,1.0212765957446808
+3900595,Lorient,OGC Nice,Away,0.9795918367346939
+3900593,Lille,Troyes,Home,1.1923076923076923
+3900593,Troyes,Lille,Away,0.5855855855855856
+3900590,Rennes,Gazélec Ajaccio,Home,0.8617021276595744
+3900590,Gazélec Ajaccio,Rennes,Away,0.839622641509434
+3900588,Lorient,AS Monaco,Home,0.7272727272727273
+3900588,AS Monaco,Lorient,Away,0.963302752293578
+3900586,Guingamp,Nantes,Home,0.89
+3900586,Nantes,Guingamp,Away,0.8679245283018868
+3900584,Bastia,Montpellier,Home,0.8666666666666667
+3900584,Montpellier,Bastia,Away,0.5408163265306123
+3900582,Gazélec Ajaccio,Stade de Reims,Home,0.9907407407407407
+3900582,Stade de Reims,Gazélec Ajaccio,Away,0.94
+3900583,Troyes,Rennes,Home,1.8125
+3900583,Rennes,Troyes,Away,0.4742268041237113
+3900585,Toulouse,Paris Saint-Germain,Home,0.7204301075268817
+3900585,Paris Saint-Germain,Toulouse,Away,0.7974683544303798
+3900570,Paris Saint-Germain,Bastia,Home,1.1481481481481481
+3900570,Bastia,Paris Saint-Germain,Away,0.55
+3900567,Bordeaux,Olympique de Marseille,Home,1.1272727272727272
+3900567,Olympique de Marseille,Bordeaux,Away,0.8349514563106796
+3900568,Gazélec Ajaccio,Lyon,Home,0.8852459016393442
+3900568,Lyon,Gazélec Ajaccio,Away,1.3235294117647058
+3900549,Saint-Étienne,Rennes,Home,1.3555555555555556
+3900549,Rennes,Saint-Étienne,Away,0.6372549019607843
+3900548,Bordeaux,Guingamp,Home,0.8191489361702128
+3900548,Guingamp,Bordeaux,Away,0.8775510204081632
+3900547,Olympique de Marseille,Montpellier,Home,0.7865168539325843
+3900547,Montpellier,Olympique de Marseille,Away,0.651685393258427
+3900545,Lyon,Angers,Home,1.168421052631579
+3900545,Angers,Lyon,Away,0.5816326530612245
+3900546,Gazélec Ajaccio,Nantes,Home,1.1935483870967742
+3900546,Nantes,Gazélec Ajaccio,Away,0.5258620689655172
+3900544,Toulouse,Lorient,Home,1.45
+3900544,Lorient,Toulouse,Away,0.6696428571428571
+3900540,OGC Nice,Paris Saint-Germain,Home,0.8780487804878049
+3900540,Paris Saint-Germain,OGC Nice,Away,1.3333333333333333
+3900539,Rennes,Olympique de Marseille,Home,1.1382978723404256
+3900539,Olympique de Marseille,Rennes,Away,1.1553398058252426
+3900538,Guingamp,Stade de Reims,Home,1.087378640776699
+3900538,Stade de Reims,Guingamp,Away,0.5714285714285714
+3900537,Troyes,Toulouse,Home,0.6063829787234043
+3900537,Toulouse,Troyes,Away,0.847457627118644
+3900536,Montpellier,Gazélec Ajaccio,Home,0.9090909090909091
+3900536,Gazélec Ajaccio,Montpellier,Away,0.5
+3900534,Bastia,Bordeaux,Home,0.7663551401869159
+3900534,Bordeaux,Bastia,Away,0.8155339805825242
+3900535,Lille,Saint-Étienne,Home,0.6804123711340206
+3900535,Saint-Étienne,Lille,Away,0.6727272727272727
+3900530,Nantes,Lyon,Home,0.8446601941747572
+3900530,Lyon,Nantes,Away,0.8314606741573034
+3900532,Angers,Paris Saint-Germain,Home,0.7241379310344828
+3900532,Paris Saint-Germain,Angers,Away,1.1176470588235294
+3900531,Lorient,OGC Nice,Home,1.5483870967741935
+3900531,OGC Nice,Lorient,Away,0.7545454545454545
+3900529,Saint-Étienne,Guingamp,Home,0.6608695652173913
+3900529,Guingamp,Saint-Étienne,Away,0.8076923076923077
+3900522,Toulouse,OGC Nice,Home,1.1391304347826088
+3900522,OGC Nice,Toulouse,Away,1.0480769230769231
+3900523,Stade de Reims,Rennes,Home,1.4086021505376345
+3900523,Rennes,Stade de Reims,Away,0.8686868686868687
+3900521,Paris Saint-Germain,Troyes,Home,1.1827956989247312
+3900521,Troyes,Paris Saint-Germain,Away,0.9904761904761905
+3900518,Stade Malherbe Caen,Angers,Home,0.7021276595744681
+3900518,Angers,Stade Malherbe Caen,Away,1.1818181818181819
+3900519,Rennes,Bordeaux,Home,0.875
+3900519,Bordeaux,Rennes,Away,0.8383838383838383
+3900511,Lorient,Paris Saint-Germain,Home,1.0495049504950495
+3900511,Paris Saint-Germain,Lorient,Away,0.9345794392523364
+3900514,Guingamp,Toulouse,Home,1.0898876404494382
+3900514,Toulouse,Guingamp,Away,0.7352941176470589
+3900515,AS Monaco,Nantes,Home,0.8775510204081632
+3900515,Nantes,AS Monaco,Away,0.9019607843137255
+3829512,Lyon,Toulouse,Home,0.9595959595959596
+3829512,Toulouse,Lyon,Away,0.82
+3829495,Lyon,Stade de Reims,Home,1.2659574468085106
+3829495,Stade de Reims,Lyon,Away,0.7142857142857143
+3900491,Saint-Étienne,Stade de Reims,Home,0.7184466019417476
+3900491,Stade de Reims,Saint-Étienne,Away,0.53
+3900504,Montpellier,Nantes,Home,0.6736842105263158
+3900504,Nantes,Montpellier,Away,0.79
+3900506,Stade de Reims,Gazélec Ajaccio,Home,0.7558139534883721
+3900506,Gazélec Ajaccio,Stade de Reims,Away,0.5765765765765766
+3900505,Stade Malherbe Caen,Guingamp,Home,0.7019230769230769
+3900505,Guingamp,Stade Malherbe Caen,Away,0.8737864077669902
+3829496,Angers,Bastia,Home,1.211111111111111
+3829496,Bastia,Angers,Away,0.7117117117117117
+3829514,Angers,Guingamp,Home,0.8494623655913979
+3829514,Guingamp,Angers,Away,0.5698924731182796
+3829469,AS Monaco,Lorient,Home,1.0769230769230769
+3829469,Lorient,AS Monaco,Away,0.6017699115044248
+3829454,Lyon,Lille,Home,0.981651376146789
+3829454,Lille,Lyon,Away,0.6728971962616822
+3829439,Toulouse,AS Monaco,Home,0.5
+3829439,AS Monaco,Toulouse,Away,0.8645833333333334
+3829513,Stade Malherbe Caen,Nantes,Home,0.9130434782608695
+3829513,Nantes,Stade Malherbe Caen,Away,0.8425925925925926
+3829510,Rennes,OGC Nice,Home,1.3043478260869565
+3829510,OGC Nice,Rennes,Away,0.8695652173913043
+3829445,Angers,OGC Nice,Home,0.7159090909090909
+3829445,OGC Nice,Angers,Away,0.48148148148148145
+3829433,Montpellier,Paris Saint-Germain,Home,1.3725490196078431
+3829433,Paris Saint-Germain,Montpellier,Away,0.5617977528089888
+3829466,Angers,Troyes,Home,0.8969072164948454
+3829466,Troyes,Angers,Away,0.79
+3900639,Saint-Étienne,AS Monaco,Home,0.72
+3900639,AS Monaco,Saint-Étienne,Away,0.5943396226415094
+3900638,Lyon,Stade Malherbe Caen,Home,0.87
+3900638,Stade Malherbe Caen,Lyon,Away,0.6534653465346535
+3900637,OGC Nice,Olympique de Marseille,Home,
+3900637,Olympique de Marseille,OGC Nice,Away,0.0
+3900635,Stade de Reims,Bastia,Home,1.009433962264151
+3900635,Bastia,Stade de Reims,Away,0.6262626262626263
+3900634,Paris Saint-Germain,Lille,Home,1.23
+3900634,Lille,Paris Saint-Germain,Away,1.3666666666666667
+3900632,Guingamp,Bordeaux,Home,0.8163265306122449
+3900632,Bordeaux,Guingamp,Away,0.6494845360824743
+3900631,Montpellier,Toulouse,Home,1.0
+3900631,Toulouse,Montpellier,Away,0.9166666666666666
+3900630,Rennes,Angers,Home,1.3146067415730338
+3900630,Angers,Rennes,Away,0.5229357798165137
+3900626,Gazélec Ajaccio,Guingamp,Home,1.3595505617977528
+3900626,Guingamp,Gazélec Ajaccio,Away,0.23469387755102042
+3900623,Lorient,Montpellier,Home,0.8365384615384616
+3900623,Montpellier,Lorient,Away,1.115702479338843
+3900622,Bastia,Troyes,Home,0.8842105263157894
+3900622,Troyes,Bastia,Away,0.83
+3900621,Toulouse,Nantes,Home,0.9444444444444444
+3900621,Nantes,Toulouse,Away,1.3428571428571427
+3900620,Stade Malherbe Caen,Stade de Reims,Home,1.2830188679245282
+3900620,Stade de Reims,Stade Malherbe Caen,Away,0.6545454545454545
+3900619,Rennes,Saint-Étienne,Home,0.8
+3900619,Saint-Étienne,Rennes,Away,1.0404040404040404
+3900618,Paris Saint-Germain,Lorient,Home,1.1111111111111112
+3900618,Lorient,Paris Saint-Germain,Away,0.8571428571428571
+3900615,Nantes,Gazélec Ajaccio,Home,0.8181818181818182
+3900615,Gazélec Ajaccio,Nantes,Away,0.7592592592592593
+3900614,Lille,Stade Malherbe Caen,Home,0.7731958762886598
+3900614,Stade Malherbe Caen,Lille,Away,0.7142857142857143
+3900613,OGC Nice,Toulouse,Home,1.2150537634408602
+3900613,Toulouse,OGC Nice,Away,0.9263157894736842
+3900612,Guingamp,Troyes,Home,0.40625
+3900612,Troyes,Guingamp,Away,1.0851063829787233
+3900611,AS Monaco,Bastia,Home,1.121212121212121
+3900611,Bastia,AS Monaco,Away,0.75
+3900610,Montpellier,Olympique de Marseille,Home,0.9433962264150944
+3900610,Olympique de Marseille,Montpellier,Away,0.92
+3900581,Bordeaux,Lille,Home,1.030612244897959
+3900581,Lille,Bordeaux,Away,0.8380952380952381
+3900580,OGC Nice,Angers,Home,0.7731958762886598
+3900580,Angers,OGC Nice,Away,0.8725490196078431
+3900579,Nantes,Saint-Étienne,Home,0.7090909090909091
+3900579,Saint-Étienne,Nantes,Away,0.5887850467289719
+3900578,Lille,OGC Nice,Home,1.49
+3900578,OGC Nice,Lille,Away,1.0
+3900576,Montpellier,Bordeaux,Home,1.3495145631067962
+3900576,Bordeaux,Montpellier,Away,0.9043478260869565
+3900575,Stade de Reims,Toulouse,Home,0.9210526315789473
+3900575,Toulouse,Stade de Reims,Away,1.0517241379310345
+3900574,Lyon,Troyes,Home,1.1022727272727273
+3900574,Troyes,Lyon,Away,0.9905660377358491
+3900573,Angers,Stade Malherbe Caen,Home,0.5876288659793815
+3900573,Stade Malherbe Caen,Angers,Away,0.6862745098039216
+3900572,AS Monaco,Gazélec Ajaccio,Home,1.5
+3900572,Gazélec Ajaccio,AS Monaco,Away,0.6785714285714286
+3900571,Rennes,Lorient,Home,0.9896907216494846
+3900571,Lorient,Rennes,Away,0.8942307692307693
+3900569,Saint-Étienne,Angers,Home,0.9176470588235294
+3900569,Angers,Saint-Étienne,Away,0.989010989010989
+3900566,Bastia,Stade de Reims,Home,0.819047619047619
+3900566,Stade de Reims,Bastia,Away,0.8
+3900565,Lorient,Nantes,Home,0.7111111111111111
+3900565,Nantes,Lorient,Away,0.7358490566037735
+3900564,Troyes,AS Monaco,Home,0.4818181818181818
+3900564,AS Monaco,Troyes,Away,0.8681318681318682
+3900563,Guingamp,Rennes,Home,0.9583333333333334
+3900563,Rennes,Guingamp,Away,0.5
+3900561,Toulouse,Lille,Home,0.6637168141592921
+3900561,Lille,Toulouse,Away,1.0786516853932584
+3900560,OGC Nice,Montpellier,Home,1.1595744680851063
+3900560,Montpellier,OGC Nice,Away,1.2065217391304348
+3900558,AS Monaco,Saint-Étienne,Home,0.9238095238095239
+3900558,Saint-Étienne,AS Monaco,Away,0.6538461538461539
+3900557,Paris Saint-Germain,Lyon,Home,1.2828282828282829
+3900557,Lyon,Paris Saint-Germain,Away,0.9325842696629213
+3900556,Angers,Bordeaux,Home,0.75
+3900556,Bordeaux,Angers,Away,0.7586206896551724
+3900555,Nantes,Toulouse,Home,1.3255813953488371
+3900555,Toulouse,Nantes,Away,0.9150943396226415
+3900554,Troyes,Bastia,Home,1.1827956989247312
+3900554,Bastia,Troyes,Away,0.5504587155963303
+3900553,Stade de Reims,OGC Nice,Home,1.1458333333333333
+3900553,OGC Nice,Stade de Reims,Away,0.5740740740740741
+3900552,Montpellier,Guingamp,Home,1.3218390804597702
+3900552,Guingamp,Montpellier,Away,0.7731958762886598
+3900551,Lille,Lorient,Home,1.4731182795698925
+3900551,Lorient,Lille,Away,0.6938775510204082
+3900550,Rennes,Stade Malherbe Caen,Home,0.9012345679012346
+3900550,Stade Malherbe Caen,Rennes,Away,0.5094339622641509
+3900543,Stade de Reims,Troyes,Home,1.043010752688172
+3900543,Troyes,Stade de Reims,Away,0.7087378640776699
+3900542,Stade Malherbe Caen,Lille,Home,1.088235294117647
+3900542,Lille,Stade Malherbe Caen,Away,0.6095238095238096
+3900526,Angers,Lille,Home,0.9578947368421052
+3900526,Lille,Angers,Away,0.9883720930232558
+3900525,Nantes,Bastia,Home,0.8478260869565217
+3900525,Bastia,Nantes,Away,0.5977011494252874
+3900524,Gazélec Ajaccio,Lorient,Home,1.027027027027027
+3900524,Lorient,Gazélec Ajaccio,Away,0.875
+3900520,Lyon,Montpellier,Home,1.3333333333333333
+3900520,Montpellier,Lyon,Away,0.8715596330275229
+3900516,Saint-Étienne,Olympique de Marseille,Home,0.9292929292929293
+3900516,Olympique de Marseille,Saint-Étienne,Away,1.0105263157894737
+3900513,Troyes,Lille,Home,1.0
+3900513,Lille,Troyes,Away,1.190909090909091
+3900512,Montpellier,Stade de Reims,Home,0.967741935483871
+3900512,Stade de Reims,Montpellier,Away,0.6915887850467289
+3900510,OGC Nice,Lyon,Home,0.6796116504854369
+3900510,Lyon,OGC Nice,Away,1.0204081632653061
+3900509,Lyon,Saint-Étienne,Home,0.9032258064516129
+3900509,Saint-Étienne,Lyon,Away,0.6545454545454545
+3900508,Bordeaux,AS Monaco,Home,0.9029126213592233
+3900508,AS Monaco,Bordeaux,Away,0.7105263157894737
+3900503,Lille,Bastia,Home,0.8390804597701149
+3900503,Bastia,Lille,Away,0.5185185185185185
+3900502,Lorient,Troyes,Home,0.7244897959183674
+3900502,Troyes,Lorient,Away,0.8018867924528302
+3900501,Paris Saint-Germain,Toulouse,Home,1.7
+3900501,Toulouse,Paris Saint-Germain,Away,0.44680851063829785
+3900500,Angers,Rennes,Home,1.3564356435643565
+3900500,Rennes,Angers,Away,0.7333333333333333
+3900499,Nantes,Olympique de Marseille,Home,1.2545454545454546
+3900499,Olympique de Marseille,Nantes,Away,0.8421052631578947
+3900498,AS Monaco,Angers,Home,1.0210526315789474
+3900498,Angers,AS Monaco,Away,0.7788461538461539
+3900497,OGC Nice,Lille,Home,0.9904761904761905
+3900497,Lille,OGC Nice,Away,1.1538461538461537
+3900496,Toulouse,Montpellier,Home,1.0593220338983051
+3900496,Montpellier,Toulouse,Away,1.05
+3900495,Bastia,Stade Malherbe Caen,Home,0.7128712871287128
+3900495,Stade Malherbe Caen,Bastia,Away,0.8037383177570093
+3900494,Gazélec Ajaccio,Bordeaux,Home,0.8214285714285714
+3900494,Bordeaux,Gazélec Ajaccio,Away,1.0103092783505154
+3900493,Troyes,Lyon,Home,0.822429906542056
+3900493,Lyon,Troyes,Away,0.8613861386138614
+3900492,Guingamp,Lorient,Home,0.7840909090909091
+3900492,Lorient,Guingamp,Away,0.7472527472527473
+3900490,Rennes,Paris Saint-Germain,Home,1.1941747572815533
+3900490,Paris Saint-Germain,Rennes,Away,1.4487179487179487
+3829438,OGC Nice,Stade Malherbe Caen,Home,
+3829438,Stade Malherbe Caen,OGC Nice,Away,0.0
+3829413,Lille,Paris Saint-Germain,Home,1.119047619047619
+3829413,Paris Saint-Germain,Lille,Away,0.43956043956043955
+3829428,Stade Malherbe Caen,Toulouse,Home,0.8064516129032258
+3829428,Toulouse,Stade Malherbe Caen,Away,0.9433962264150944
+3829522,OGC Nice,Nantes,Home,0.6559139784946236
+3829522,Nantes,OGC Nice,Away,0.8272727272727273
+3829521,Bordeaux,Troyes,Home,0.9714285714285714
+3829521,Troyes,Bordeaux,Away,0.6837606837606838
+3829520,Stade de Reims,AS Monaco,Home,0.673469387755102
+3829520,AS Monaco,Stade de Reims,Away,0.8526315789473684
+3829517,Gazélec Ajaccio,OGC Nice,Home,0.967032967032967
+3829517,OGC Nice,Gazélec Ajaccio,Away,0.9518072289156626
+3829516,Lorient,Rennes,Home,1.2346938775510203
+3829516,Rennes,Lorient,Away,1.041237113402062
+3829515,Montpellier,Bastia,Home,1.058252427184466
+3829515,Bastia,Montpellier,Away,0.87
+3829511,Bordeaux,Montpellier,Home,0.8865979381443299
+3829511,Montpellier,Bordeaux,Away,0.73
+3829508,Stade de Reims,Stade Malherbe Caen,Home,
+3829508,Stade Malherbe Caen,Stade de Reims,Away,0.0
+3829507,Toulouse,Angers,Home,1.4827586206896552
+3829507,Angers,Toulouse,Away,0.5126050420168067
+3829506,Guingamp,Lille,Home,0.6666666666666666
+3829506,Lille,Guingamp,Away,0.6666666666666666
+3829505,Saint-Étienne,Gazélec Ajaccio,Home,0.9038461538461539
+3829505,Gazélec Ajaccio,Saint-Étienne,Away,0.6637168141592921
+3829504,Bastia,Paris Saint-Germain,Home,0.9
+3829504,Paris Saint-Germain,Bastia,Away,0.6966292134831461
+3829503,Nantes,Troyes,Home,0.9230769230769231
+3829503,Troyes,Nantes,Away,0.6504854368932039
+3829502,AS Monaco,Lyon,Home,0.8144329896907216
+3829502,Lyon,AS Monaco,Away,0.7340425531914894
+3829501,AS Monaco,Rennes,Home,0.75
+3829501,Rennes,AS Monaco,Away,0.875
+3829500,Paris Saint-Germain,Olympique de Marseille,Home,
+3829500,Olympique de Marseille,Paris Saint-Germain,Away,0.0
+3829498,Lorient,Bordeaux,Home,0.9405940594059405
+3829498,Bordeaux,Lorient,Away,1.1711711711711712
+3829497,Troyes,Guingamp,Home,1.092783505154639
+3829497,Guingamp,Troyes,Away,0.851063829787234
+3829494,Gazélec Ajaccio,Toulouse,Home,0.9313725490196079
+3829494,Toulouse,Gazélec Ajaccio,Away,0.8383838383838383
+3829493,Lille,Montpellier,Home,1.0101010101010102
+3829493,Montpellier,Lille,Away,0.6228070175438597
+3829492,Lille,Nantes,Home,1.2588235294117647
+3829492,Nantes,Lille,Away,0.49206349206349204
+3829491,Olympique de Marseille,Angers,Home,1.2297297297297298
+3829491,Angers,Olympique de Marseille,Away,0.65625
+3829490,Saint-Étienne,OGC Nice,Home,0.8585858585858586
+3829490,OGC Nice,Saint-Étienne,Away,0.7373737373737373
+3829489,Montpellier,Lorient,Home,0.7708333333333334
+3829489,Lorient,Montpellier,Away,0.6272727272727273
+3829488,Guingamp,AS Monaco,Home,1.0833333333333333
+3829488,AS Monaco,Guingamp,Away,0.7422680412371134
+3829487,Stade Malherbe Caen,Gazélec Ajaccio,Home,0.7272727272727273
+3829487,Gazélec Ajaccio,Stade Malherbe Caen,Away,0.8118811881188119
+3829486,Bastia,Toulouse,Home,0.7217391304347827
+3829486,Toulouse,Bastia,Away,0.7777777777777778
+3829485,Rennes,Troyes,Home,1.04
+3829485,Troyes,Rennes,Away,0.7
+3829484,Bordeaux,Lyon,Home,0.8064516129032258
+3829484,Lyon,Bordeaux,Away,0.8723404255319149
+3829483,Nantes,Paris Saint-Germain,Home,1.1938775510204083
+3829483,Paris Saint-Germain,Nantes,Away,0.8404255319148937
+3829482,Stade de Reims,Lille,Home,0.5454545454545454
+3829482,Lille,Stade de Reims,Away,0.8709677419354839
+3829481,Montpellier,AS Monaco,Home,0.8303571428571429
+3829481,AS Monaco,Montpellier,Away,1.00990099009901
+3829480,Troyes,Saint-Étienne,Home,0.7830188679245284
+3829480,Saint-Étienne,Troyes,Away,0.7870370370370371
+3829477,Toulouse,Olympique de Marseille,Home,
+3829477,Olympique de Marseille,Toulouse,Away,0.0
+3829476,Lyon,Bastia,Home,0.8315789473684211
+3829476,Bastia,Lyon,Away,0.8191489361702128
+3829475,OGC Nice,Bordeaux,Home,1.072289156626506
+3829475,Bordeaux,OGC Nice,Away,1.5
+3829474,Angers,Stade de Reims,Home,0.9893617021276596
+3829474,Stade de Reims,Angers,Away,1.0808080808080809
+3829473,Paris Saint-Germain,Guingamp,Home,1.1627906976744187
+3829473,Guingamp,Paris Saint-Germain,Away,0.7052631578947368
+3829471,Bordeaux,Toulouse,Home,1.0098039215686274
+3829471,Toulouse,Bordeaux,Away,0.7692307692307693
+3829468,Guingamp,Gazélec Ajaccio,Home,0.925
+3829468,Gazélec Ajaccio,Guingamp,Away,0.6470588235294118
+3829467,Stade Malherbe Caen,Montpellier,Home,0.9807692307692307
+3829467,Montpellier,Stade Malherbe Caen,Away,0.6454545454545455
+3829465,Stade de Reims,Paris Saint-Germain,Home,0.7623762376237624
+3829465,Paris Saint-Germain,Stade de Reims,Away,0.9883720930232558
+3829464,Bastia,OGC Nice,Home,1.431578947368421
+3829464,OGC Nice,Bastia,Away,0.6371681415929203
+3829463,Rennes,Lille,Home,0.7171717171717171
+3829463,Lille,Rennes,Away,1.306930693069307
+3829462,Gazélec Ajaccio,AS Monaco,Home,0.4953271028037383
+3829462,AS Monaco,Gazélec Ajaccio,Away,0.5169491525423728
+3829460,Nantes,Rennes,Home,1.1869158878504673
+3829460,Rennes,Nantes,Away,1.1910112359550562
+3829458,Toulouse,Stade de Reims,Home,0.7843137254901961
+3829458,Stade de Reims,Toulouse,Away,1.101010101010101
+3829457,Montpellier,Saint-Étienne,Home,0.8240740740740741
+3829457,Saint-Étienne,Montpellier,Away,0.6776859504132231
+3829456,Lorient,Angers,Home,1.276190476190476
+3829456,Angers,Lorient,Away,0.940677966101695
+3829455,Troyes,Stade Malherbe Caen,Home,
+3829455,Stade Malherbe Caen,Troyes,Away,0.0
+3829453,Paris Saint-Germain,Bordeaux,Home,1.0481927710843373
+3829453,Bordeaux,Paris Saint-Germain,Away,1.0842105263157895
+3829452,Bordeaux,Nantes,Home,0.8131868131868132
+3829452,Nantes,Bordeaux,Away,0.7578947368421053
+3829451,Saint-Étienne,Bastia,Home,1.5930232558139534
+3829451,Bastia,Saint-Étienne,Away,0.40625
+3829450,AS Monaco,Paris Saint-Germain,Home,1.6933333333333334
+3829450,Paris Saint-Germain,AS Monaco,Away,0.7674418604651163
+3829449,Rennes,Toulouse,Home,0.7115384615384616
+3829449,Toulouse,Rennes,Away,0.7345132743362832
+3829448,Stade de Reims,Lorient,Home,0.7073170731707317
+3829448,Lorient,Stade de Reims,Away,0.7534246575342466
+3829447,Lille,Gazélec Ajaccio,Home,0.8269230769230769
+3829447,Gazélec Ajaccio,Lille,Away,0.41739130434782606
+3829446,Troyes,Montpellier,Home,0.5943396226415094
+3829446,Montpellier,Troyes,Away,0.631578947368421
+3829443,Guingamp,Olympique de Marseille,Home,
+3829443,Olympique de Marseille,Guingamp,Away,0.0
+3829442,Lille,Bordeaux,Home,0.6363636363636364
+3829442,Bordeaux,Lille,Away,0.9722222222222222
+3829440,Lorient,Saint-Étienne,Home,0.46534653465346537
+3829440,Saint-Étienne,Lorient,Away,1.1470588235294117
+3829437,Gazélec Ajaccio,Angers,Home,0.9021739130434783
+3829437,Angers,Gazélec Ajaccio,Away,0.7941176470588235
+3829436,Nantes,Stade de Reims,Home,0.8
+3829436,Stade de Reims,Nantes,Away,0.9
+3829435,Lyon,Rennes,Home,0.989247311827957
+3829435,Rennes,Lyon,Away,0.8613861386138614
+3829434,Bastia,Guingamp,Home,0.41346153846153844
+3829434,Guingamp,Bastia,Away,0.7475728155339806
+3829432,Paris Saint-Germain,Gazélec Ajaccio,Home,0.7682926829268293
+3829432,Gazélec Ajaccio,Paris Saint-Germain,Away,0.8117647058823529
+3829431,Lorient,Bastia,Home,0.8387096774193549
+3829431,Bastia,Lorient,Away,0.5370370370370371
+3829430,Stade de Reims,Olympique de Marseille,Home,
+3829430,Olympique de Marseille,Stade de Reims,Away,0.0
+3829429,Rennes,Montpellier,Home,0.8365384615384616
+3829429,Montpellier,Rennes,Away,0.963302752293578
+3829427,Troyes,OGC Nice,Home,0.8421052631578947
+3829427,OGC Nice,Troyes,Away,0.6847826086956522
+3829426,Guingamp,Lyon,Home,0.8958333333333334
+3829426,Lyon,Guingamp,Away,0.6346153846153846
+3829425,Angers,Nantes,Home,1.02
+3829425,Nantes,Angers,Away,0.72
+3829424,Saint-Étienne,Bordeaux,Home,0.7368421052631579
+3829424,Bordeaux,Saint-Étienne,Away,0.9456521739130435
+3829423,AS Monaco,Lille,Home,0.7254901960784313
+3829423,Lille,AS Monaco,Away,0.6464646464646465
+3829422,Lyon,Lorient,Home,0.927710843373494
+3829422,Lorient,Lyon,Away,0.6326530612244898
+3829421,Toulouse,Saint-Étienne,Home,0.7941176470588235
+3829421,Saint-Étienne,Toulouse,Away,0.8817204301075269
+3829420,Bordeaux,Stade de Reims,Home,1.0693069306930694
+3829420,Stade de Reims,Bordeaux,Away,0.6764705882352942
+3829419,Montpellier,Angers,Home,0.6483516483516484
+3829419,Angers,Montpellier,Away,1.0392156862745099
+3829418,Nantes,Guingamp,Home,0.8854166666666666
+3829418,Guingamp,Nantes,Away,0.8727272727272727
+3829417,Troyes,Gazélec Ajaccio,Home,1.043010752688172
+3829417,Gazélec Ajaccio,Troyes,Away,0.7009345794392523
+3829415,Bastia,Rennes,Home,0.9893617021276596
+3829415,Rennes,Bastia,Away,0.8461538461538461
