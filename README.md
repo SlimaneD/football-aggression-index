@@ -1,5 +1,8 @@
 # Football Aggression Index
 
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SlimaneD/football-aggression-index/master?labpath=territorial_behavior_in_football.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SlimaneD/football-aggression-index/blob/master/territorial_behavior_in_football.ipynb)
+
 A defensive "pressing aggression" score for football (soccer) teams, built from StatsBomb open event data, grounded in evolutionary game theory (EGT), and cross-checked against an independent player-tracking metric.
 
 ## Key findings
@@ -79,6 +82,8 @@ jupyter lab
 ```
 
 No API keys or manual downloads needed: `statsbombpy` fetches StatsBomb's open data live, and the tracking notebook downloads Metrica Sports' sample match automatically on first run. Data is cached locally under `data/` after the first run (gitignored, so a fresh clone re-fetches everything).
+
+The Binder and Colab badges above open the main narrative notebook (`territorial_behavior_in_football.ipynb`) without a local install — it only reads small, already-computed CSVs bundled in the repo, so it runs in a few seconds either way.
 
 ## Roadmap
 
