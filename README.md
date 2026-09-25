@@ -5,26 +5,28 @@
 
 A defensive "pressing aggression" score for football (soccer) teams, built from StatsBomb open event data, grounded in evolutionary game theory (EGT), and cross-checked against an independent player-tracking metric.
 
-## Key findings
-
-- **The Bourgeois convention dominates.** 75 of 80 teams (93.8%) across four major European leagues press more when playing at home than away, a highly significant effect in every league individually — the pattern predicted by the Hawk-Dove-Bourgeois-Antibourgeois ownership game.
-- **Barcelona (2015/16) is a useful stress test, not a counterexample.** Reputation predicts a top pressing score; the data places them 22nd of 80 in Europe. That gap traces to two real, checked effects — Barcelona's opponents have the fewest possessions per match in La Liga (a small-denominator effect) and Barcelona's own style leans on retaining the ball rather than repeatedly winning it back. Relative to their league rivals specifically, Barcelona classifies as **Hawk** (aggressive everywhere), not Bourgeois.
-- **Event data and tracking data can disagree — informatively.** An independent check using Metrica Sports' open tracking data initially found the *opposite* pattern (the away team looked more territorially committed than home). Investigating why traced the mismatch to scoreline, not baseline style: the trailing team's tracking-based territorial presence is inflated by the leading team choosing to circulate the ball deep, not by the trailing team actively pressing more. Once scoreline is held constant, the tracking data flips back to match the event-data direction. See the tracking notebook below for the full investigation.
-
 ## Motivation
 
-This project builds an aggression score from event data, then stress-tests it on a hard case (Barcelona's 2015/16 side — see Key Findings above) before trusting it for anything else.
+This project builds an aggression score from event data, then stress-tests it on a hard case (Barcelona's 2015/16 side — see Key Findings below).
 
-"Aggression" is used here in the EGT/Hawk-Dove sense — willingness to contest a resource — not the colloquial sense of physicality or fouls. Concretely, the score measures how often a team ventures into the opponent's own territory to contest the ball, not how hard it tackles or how many fouls it commits.
+"Aggression" is used here in the Hawk-Dove sense — willingness to contest a resource — not the colloquial sense of physicality or fouls. Concretely, the score measures how often a team ventures into the opponent's own territory to contest the ball.
 
-The longer-term motivation is framed in EGT terms. The classic Hawk-Dove-Bourgeois-Antibourgeois ownership game gives four strategies, where "ownership" maps naturally onto home/away status in football (home = territory owner):
+One common observation is that home teams tend to be more tactically aggressive, i.e., they contest the ball higher up the pitch, while away teams tend to sit back. This home/away asymmetry is exactly what a classical extension of the Hawk-Dove game predicts, once "ownership" of a contested resource enters the picture: a team playing at home is the *owner* of the territory, a team playing away is the *intruder*, and that asymmetry alone is enough to generate four candidate strategies:
 
 - **Hawk** — aggressive everywhere
 - **Dove** — passive everywhere
 - **Bourgeois** — aggressive at home, passive away (conditions on ownership)
 - **Antibourgeois** — the reverse
 
+The Bourgeois strategy is of particular interest here because it matches the home/away asymmetry just described. It is also an evolutionarily stable strategy (ESS): in a population of animals playing this game, if every individual adopted Bourgeois, no individual could gain an advantage by switching to one of the other three strategies — an uninvadable state.
+
 If a team's aggression score at home consistently differs from its score away, that's evidence for a conditional (Bourgeois/Antibourgeois) strategy rather than a fixed (Hawk/Dove) one. The score is kept continuous rather than forced into these four labels — most teams will sit somewhere in the middle of a home-aggression vs. away-aggression plot, not in a corner.
+
+## Key findings
+
+- **The Bourgeois convention dominates.** 75 of 80 teams (93.8%) across four major European leagues press more when playing at home than away, a highly significant effect in every league individually — the pattern predicted by the Hawk-Dove-Bourgeois-Antibourgeois ownership game.
+- **Barcelona (2015/16) is a useful stress test.** Reputation predicts a top pressing score; the data places them 22nd of 80 in Europe. That gap traces to two real, checked effects — Barcelona's opponents have the fewest possessions per match in La Liga (a small-denominator effect) and Barcelona's own style leans on retaining the ball rather than repeatedly winning it back. Relative to their league rivals specifically, Barcelona classifies as **Hawk** (aggressive everywhere), not Bourgeois.
+- **Event data and tracking data can disagree — informatively.** An independent check using Metrica Sports' open tracking data initially found the *opposite* pattern (the away team looked more territorially committed than home). Investigating why traced the mismatch to scoreline, not baseline style: the trailing team's tracking-based territorial presence is inflated by the leading team choosing to circulate the ball deep, not by the trailing team actively pressing more. Once scoreline is held constant, the tracking data flips back to match the event-data direction. See the tracking notebook below for the full investigation.
 
 ## Data
 
@@ -36,7 +38,7 @@ Both StatsBomb's and Metrica Sports' data remain subject to their own respective
 
 ## Aggression score — definition
 
-The raw aggression score is a single metric, **forward press rate**: the number of defensive-action *attempts* — pressures, tackles, interceptions, and fouls committed, regardless of outcome — a team makes while the ball is in the opponent's own half, per opponent possession.
+The raw aggression score is a single metric, **forward press rate**: the number of defensive-action *attempts* — pressures, tackles, interceptions, and fouls committed, regardless of outcome — a team makes while the ball is in the opponent's half, per opponent possession.
 
 Computed per team, per match, from event data. Two design choices matter:
 
@@ -68,7 +70,7 @@ Before the score is trusted for any downstream analysis:
 
 Four notebooks live in this repo. Three are the polished analysis, meant to be read in this order:
 
-1. **[`territorial_behavior_in_football.ipynb`](territorial_behavior_in_football.ipynb) — start here.** The main narrative: the Hawk-Dove framing, forward press rate, the European ranking, the Barcelona case study, and the Bourgeois-hypothesis tests.
+1. **[`territorial_behavior_in_football.ipynb`](territorial_behavior_in_football.ipynb) — start here** ([Binder](https://mybinder.org/v2/gh/SlimaneD/football-aggression-index/master?labpath=territorial_behavior_in_football.ipynb), [Colab](https://colab.research.google.com/github/SlimaneD/football-aggression-index/blob/master/territorial_behavior_in_football.ipynb)). The main narrative: the Hawk-Dove framing, forward press rate, the European ranking, the Barcelona case study, and the Bourgeois-hypothesis tests.
 2. **[`validation_appendix.ipynb`](validation_appendix.ipynb)** — supporting technical validation in full detail: the complete pressing-efficiency investigation, per-match pitch visualizations, and further statistical robustness checks referenced from the main narrative.
 3. **[`tracking_defensive_line.ipynb`](tracking_defensive_line.ipynb)** — the independent tracking-data cross-check described in Key Findings above.
 
