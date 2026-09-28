@@ -68,13 +68,15 @@ Before the score is trusted for any downstream analysis:
 
 ## Notebooks — where to start
 
-Four notebooks live in this repo. Three are the polished analysis, meant to be read in this order:
+Five notebooks live in this repo. Three are the polished analysis, meant to be read in this order:
 
 1. **[`territorial_behavior_in_football.ipynb`](territorial_behavior_in_football.ipynb) — start here** ([Binder](https://mybinder.org/v2/gh/SlimaneD/football-aggression-index/master?labpath=territorial_behavior_in_football.ipynb), [Colab](https://colab.research.google.com/github/SlimaneD/football-aggression-index/blob/master/territorial_behavior_in_football.ipynb)). The main narrative: the Hawk-Dove framing, forward press rate, the European ranking, the Barcelona case study, and the Bourgeois-hypothesis tests.
 2. **[`validation_appendix.ipynb`](validation_appendix.ipynb)** — supporting technical validation in full detail: the complete pressing-efficiency investigation, per-match pitch visualizations, and further statistical robustness checks referenced from the main narrative.
 3. **[`tracking_defensive_line.ipynb`](tracking_defensive_line.ipynb)** — the independent tracking-data cross-check described in Key Findings above.
 
 The remaining notebook, [`explore_statsbomb_2015_16.ipynb`](explore_statsbomb_2015_16.ipynb), is a working/exploratory notebook kept for transparency, not part of the polished narrative.
+
+Separately, [`OwnershipGame.ipynb`](OwnershipGame.ipynb) builds the Hawk-Dove-Bourgeois-Antibourgeois replicator-dynamics phase portraits referenced in the Motivation section above, using the [pynamo-egt](https://pypi.org/project/pynamo-egt/) library. This constitutes pure evolutionary-game-theory background, with no reference to football data.
 
 ## Reproducing this analysis
 
