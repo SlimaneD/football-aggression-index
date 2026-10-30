@@ -1,0 +1,34 @@
+# Conda environment for the deep-learning notebook(s) in this directory only.
+#
+# Why a separate environment: the project's main .venv-football-aggression-index
+# is built on an x86_64 Python binary (Intel Homebrew's /usr/local/Cellar
+# prefix) running under Rosetta 2 -- on what is actually an Apple Silicon
+# machine. `pip install torch` inside that venv fails because PyPI's current
+# PyTorch no longer ships x86_64 macOS wheels at all (the last one, 2.2.2,
+# also only supports up to Python 3.12), and pip resolves wheels for the
+# *translated* process, not the real hardware.
+#
+# This conda environment uses a native arm64 Python instead, so PyTorch
+# installs from conda-forge at a current version with full Apple Silicon
+# support (potentially including Metal/MPS GPU acceleration).
+#
+# The rest of the repo (all other notebooks) intentionally does NOT depend on
+# this environment or on PyTorch -- see requirements.txt / README for the
+# normal pip-based setup.
+#
+# Usage:
+#   conda env create -f deep_learning/environment.yml
+#   conda activate football-dl
+name: football-dl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pytorch
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - plotly
+  - jupyter
+  - ipykernel
