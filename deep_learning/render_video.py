@@ -26,7 +26,7 @@ from mplsoccer.soccer.markers import football_hexagon_marker, football_pentagon_
 
 # ---------- Config ----------
 CLIPS = [
-    {"chain": 701, "subtitle": "Successful pressing sequence: clear regain",            "extra_s": 5},
+    {"chain": 701, "subtitle": "Successful pressing sequence: clean recovery",            "extra_s": 5},
     {"chain": 495, "subtitle": "Successful pressing sequence: throw-in obtained",       "extra_s": 7},
     {"chain": 379, "subtitle": "Failed pressing sequence: holding team keeps the ball", "extra_s": 7},
 ]

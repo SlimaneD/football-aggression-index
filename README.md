@@ -97,7 +97,7 @@ The notebook(s) in `deep_learning/` require a separate environment; see Part 2 b
 
 ---
 
-# Part 2: Pressing effectiveness (A-League, tracking data)
+# Part 2: Pressing effectiveness (Australian A-League, tracking data)
 
 ## Motivation
 
@@ -114,7 +114,7 @@ Two modeling layers, both working from the raw (x, y) coordinates plus velocitie
 
 ## Key findings
 
-- **Closing speed is the strongest predictor of pressing success**, ahead of numerical superiority or pitch position. Faster closing on the ball holder significantly increases the probability of regaining possession.
+- **Both dimensions of pressing aggressiveness increase the probability of regain.** Higher closing speed (contesting harder) and greater numerical superiority near the ball (contesting with more players) both raise the probability of regaining possession, with numerical superiority showing the stronger effect.
 - **Home teams gain a pressing advantage that is not explained by pressing style.** Home pressing succeeds more often than away pressing (42.8% vs 37.4%, p=0.046), yet home and away teams show no significant difference in closing speed or numerical commitment. The advantage appears to operate through the opponent's response rather than through the pressing team's behavior.
 - **The DeepSets model matches logistic regression performance** (AUC ~0.62), suggesting that the hand-crafted features already capture the main spatial signal. A temporal extension (Conv1D over five keyframes) does not improve on the snapshot model, likely because more training data is needed before extra parameters help.
 - **The home advantage in pressing connects back to the Bourgeois framework.** Partial dependence analysis shows the home edge is additive: home teams benefit from a flat probability bonus regardless of how they press, consistent with a psychological or crowd-driven effect on the defending team rather than a tactical difference.
