@@ -10,3 +10,4 @@ data/tracking_raw/
 data/press_sequences/
 data/skillcorner/
 deep_learning/data/tracking_raw/
+deep_learning/*.html

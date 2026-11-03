@@ -17,10 +17,12 @@ This project builds an aggression score from event data, then stress-tests it on
 
 One common observation is that home teams tend to be more tactically aggressive, i.e., they contest the ball higher up the pitch, while away teams tend to sit back. This home/away asymmetry is exactly what a classical extension of the Hawk-Dove game predicts, once "ownership" of a contested resource enters the picture: a team playing at home is the *owner* of the territory, a team playing away is the *intruder*, and that asymmetry alone is enough to generate four candidate strategies:
 
-- **Hawk**: aggressive everywhere
-- **Dove**: passive everywhere
-- **Bourgeois**: aggressive at home, passive away (conditions on ownership)
-- **Antibourgeois**: the reverse
+| Strategy | Behavior as owner | Behavior as intruder |
+|---|---|---|
+| Hawk | Escalate | Escalate |
+| Dove | Retreat | Retreat |
+| Bourgeois | Escalate | Retreat |
+| Anti-bourgeois | Retreat | Escalate |
 
 The Bourgeois strategy is of particular interest here because it matches the home/away asymmetry just described. It is also an evolutionarily stable strategy (ESS): in a population of animals playing this game, if every individual adopted Bourgeois, no individual could gain an advantage by switching to one of the other three strategies, an uninvadable state.
 
@@ -103,7 +105,7 @@ The notebook(s) in `deep_learning/` require a separate environment; see Part 2 b
 
 Part 1 measured one dimension of pressing aggression: how often teams contest the ball in the opponent's half. Part 2 addresses the other dimension: how hard they contest, and whether it pays off. Does pressing more aggressively actually lead to regaining the ball? And does it pay off differently for home and away teams?
 
-Using SkillCorner's open tracking data (A-League 2022/23, 20 matches), this part extracts pressing chains and trains models to predict their outcome (ball regain vs. disruption only) from the spatial snapshot of all 22 players at the moment pressing is initiated.
+Using SkillCorner's open tracking data (A-League 2024/25, 20 matches), this part extracts pressing chains and trains models to predict their outcome (ball regain vs. disruption only) from the spatial snapshot of all 22 players at the last frame of each pressing chain.
 
 ## Approach
 
@@ -116,12 +118,12 @@ Two modeling layers, both working from the raw (x, y) coordinates plus velocitie
 
 - **Both dimensions of pressing aggressiveness increase the probability of regain.** Higher closing speed (contesting harder) and greater numerical superiority near the ball (contesting with more players) both raise the probability of regaining possession, with numerical superiority showing the stronger effect.
 - **Home teams gain a pressing advantage that is not explained by pressing style.** Home pressing succeeds more often than away pressing (42.8% vs 37.4%, p=0.046), yet home and away teams show no significant difference in closing speed or numerical commitment. The advantage appears to operate through the opponent's response rather than through the pressing team's behavior.
-- **The DeepSets model matches logistic regression performance** (AUC ~0.62), suggesting that the hand-crafted features already capture the main spatial signal. A temporal extension (Conv1D over five keyframes) does not improve on the snapshot model, likely because more training data is needed before extra parameters help.
+- **The DeepSets model matches logistic regression performance** (CV AUC 0.66 vs 0.62), suggesting that the hand-crafted features already capture the main spatial signal. A temporal extension (Conv1D over five keyframes) does not improve on the snapshot model, likely because more training data is needed before extra parameters help.
 - **The home advantage in pressing connects back to the Bourgeois framework.** Partial dependence analysis shows the home edge is additive: home teams benefit from a flat probability bonus regardless of how they press, consistent with a psychological or crowd-driven effect on the defending team rather than a tactical difference.
 
 ## Data
 
-SkillCorner open tracking data, accessed via the [kloppy](https://github.com/kloppy-project/kloppy) library. 20 A-League 2022/23 matches, 10 Hz tracking. Pressing chains are extracted from SkillCorner's annotated pressing events and linked to the frame-level tracking data. See `deep_learning/data/` for cached intermediate files.
+SkillCorner open tracking data, accessed via the [kloppy](https://github.com/kloppy-project/kloppy) library. 20 A-League 2024/25 matches, 10 Hz tracking. Pressing chains are extracted from SkillCorner's annotated pressing events and linked to the frame-level tracking data. See `deep_learning/data/` for cached intermediate files.
 
 SkillCorner's data is subject to its own [terms of use](https://github.com/SkillCorner/opendata).
 

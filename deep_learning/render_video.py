@@ -263,7 +263,7 @@ part = 0
 # 1. Opening title card on black
 print(f"Rendering opening title card ({N_OPENING_FRAMES} frames) ...")
 opening_path = f"{OUT_DIR}/part_{part:02d}.mp4"
-render_black_card("Pressing effectiveness analysis\nSkillCorner tracking data",
+render_black_card("Pressing effectiveness analysis\n(SkillCorner tracking data)",
                   N_OPENING_FRAMES, opening_path)
 clip_paths.append(opening_path)
 part += 1
@@ -276,7 +276,7 @@ for i, clip_cfg in enumerate(CLIPS):
     match_info = next(m for m in matches if m["id"] == mid)
     home_name = match_info["home_team"]["short_name"]
     away_name = match_info["away_team"]["short_name"]
-    title_text = f"{home_name} vs {away_name}\n{clip_cfg['subtitle']}"
+    title_text = f"Example {i+1}\n\n{clip_cfg['subtitle']}"
 
     # Black title card
     print(f"\nRendering black title for clip {i+1}/3 ({N_BLACK_TITLE_FRAMES} frames) ...")
